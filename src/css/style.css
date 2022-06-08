@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+video {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.nav-margin {
+    margin-right: 30px;
+}
+
+.nav-espasamento {
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+.nav-animation {
+    transition: all 0.1s;
+}
+
+.nav-animation:hover {
+    color: blue!important;
+    text-decoration: underline;
+}
+
+.conteudo {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 280px;
+    text-transform: uppercase;
+}
+
+.bg-button {
+    background-color: blue;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    font-weight: bold;
+}
+
+.titulo-portfolio {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 60px;
+    font-weight: bold;
+    margin-top: 600px;
+}
+
+.titulo-contato {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-top: 600px;
+}
+
+.texto-sobre {
+    padding: 3em 0;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.foto-principal {
+    width: 200px;
+    float: left;
+    margin: 50px 50px 100px 100px;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.foto-projetos {
+    position: relative;
+    width: 200px;
+    box-shadow: 10px 10px 10px 0 #000000;
+    margin: 10px 10px 50px 170px;
+}
+
+.foto-projetos:hover {
+    width: 202px;
+}
+
+.foto-pessoal {
+    position: relative;
+    width: 400px;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.form-edit {
+    margin-left: 50px;
+}
+
+.form-edit .lg-input {
+    width: 700px;
+}
+
+.form-edit textarea {
+    width: 700px;
+}
+
+.alinhar-sobre {
+    float: left;
+}
+
+.texto-inicio {
+    padding: 3em 0;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.alinhamento {
+    margin-top: 550px;
+}
+
+.botao-center {
+    margin-right: 150px;
+}
+
+.btInicio-center {
+    margin-right: 500px;
+}
+
+.bt-phone {
+    text-align: center;
+}
+
+.mais-botao {
+    text-decoration: none;
+    background-color: blue;
+    margin-right: 200pxz;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0 #000000;
+    margin-left: 100px;
+    transition: all 0.4s;
+}
+
+.ct-contato {
+    text-align: center;
+    margin-bottom: 50px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bt-center {
+    margin-left: 540px;
+}
+
+.mais-botao:hover {
+    color: white;
+    font-size: 17px;
+}
+
+.footer {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top: 50px;
+  }
+.footer p {
+    color: white;
+    text-align: center;
+  }
+.footer p a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100%;
+    line-height: 30px;
+    transition: all 0.2s;
+  }
+.footer p a:hover {
+    background-color: blue;
+    font-size: 20px;
+  }
+
+.img-sobre {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    position: absolute;
+  }
+
+  @media screen and (max-width: 480px) {
+    .texto-inicio {
+        padding: 3em 0;
+        width: auto;
+        margin: 0 auto;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .texto-sobre {
+        width: auto;
+        margin: auto;
+    }
+
+    .alinhamento img {
+        width: 200px;
+        margin-left: 80px;
+    }
+
+    .bt-phone {
+        text-align: center;
+    }
+
+    .foto-pessoal {
+        float: left;
+        width: 200px;
+    }
+
+    .mais-botao {
+        width: auto;
+        margin: auto;
+    }
+
+    .bg-video {
+        width: auto;
+        height: auto;
+    }
+    .foto-principal {
+        width: 200px;
+        float: left;
+        margin: auto;
+    }
+
+    section .form-cell {
+        width: 200px;
+    }
+
+    .form-edit {
+        margin-left: 10px;
+    }
+    
+    .form-edit .lg-input {
+        width: 300px;
+    }
+    
+    .form-edit textarea {
+        width: 300px;
+    }
+  }
